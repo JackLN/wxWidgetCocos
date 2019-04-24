@@ -1,0 +1,83 @@
+* 环境搭建
+
+wxFormEditor https://github-production-release-asset-2e65be.s3.amazonaws.com/67152972/6ebd9f80-d91d-11e8-93f7-80ba276a236f?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20190422%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20190422T090414Z&X-Amz-Expires=300&X-Amz-Signature=f98cdda7b3f86cb3c6a4db76c2ccf76bcad8cd3ee5e65d01fb0603a0f1e51cc6&X-Amz-SignedHeaders=host&actor_id=13462494&response-content-disposition=attachment%3B%20filename%3DwxFormBuilder_v3.9.0.exe&response-content-type=application%2Foctet-stream
+wxWidget https://liquidtelecom.dl.sourceforge.net/project/wxwindows/3.0.0/wxMSW-3.0.0-Setup.exe
+
+build/msw/wx.dsw 转换工程版本 右键批生成
+勾选Debug Release 生成编译
+http://www.ouyaoxiazai.com/soft/hyrj/146/46773.html dialogblocks
+Name：ttrar.com
+Key：44467F4A-3E37F2F8-C81ED895
+
+** 头文件目录
+Release
+wxWidgets-3.0.0\include  
+wxWidgets-3.0.0\lib\vc_lib\mswu 
+
+Debug
+wxWidgets-3.0.0\include  
+wxWidgets-3.0.0\lib\vc_lib\mswud 
+
+** 连接器目录
+wxWidgets-3.0.0\lib\vc_lib
+** MFC 
+配置属性->常规->MFC的使用：使用标准 Windows 库
+** input lib
+Release
+wxbase30u.lib  
+wxbase30u_net.lib  
+wxbase30u_xml.lib  
+wxexpat.lib  
+wxjpeg.lib  
+wxmsw30u_adv.lib  
+wxmsw30u_aui.lib  
+wxmsw30u_core.lib  
+wxmsw30u_gl.lib  
+wxmsw30u_html.lib  
+wxmsw30u_media.lib  
+wxmsw30u_propgrid.lib  
+wxmsw30u_qa.lib  
+wxmsw30u_ribbon.lib  
+wxmsw30u_richtext.lib  
+wxmsw30u_stc.lib  
+wxmsw30u_xrc.lib  
+wxpng.lib  
+wxregexu.lib  
+wxscintilla.lib  
+wxtiff.lib  
+wxzlib.lib  
+comctl32.lib  
+rpcrt4.lib
+
+Debug
+wxbase30ud_net.lib  
+wxmsw30ud_html.lib  
+wxbase30ud_xml.lib  
+wxmsw30ud_adv.lib  
+wxmsw30ud_aui.lib  
+wxmsw30ud_gl.lib  
+wxmsw30ud_media.lib  
+wxmsw30ud_propgrid.lib  
+wxmsw30ud_qa.lib  
+wxmsw30ud_ribbon.lib  
+wxmsw30ud_richtext.lib  
+wxmsw30ud_stc.lib  
+wxmsw30ud_xrc.lib  
+wxscintillad.lib  
+wxmsw30ud_core.lib  
+wxbase30ud.lib  
+wxtiffd.lib  
+wxjpegd.lib  
+wxpngd.lib  
+wxzlibd.lib  
+wxexpatd.lib  
+winmm.lib  
+comctl32.lib  
+rpcrt4.lib  
+wsock32.lib  
+odbc32.lib
+** 预编译宏定义
+__WXMSW__  
+__WXDEBUG__  
+HAVE_SSIZE_T
+WIN32_LEAN_AND_MEAN
