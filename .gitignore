@@ -6,10 +6,14 @@
 *.lo
 *.o
 *.obj
+*.sdf
+*.opensdf
+*.suo
 
 # Precompiled Headers
 *.gch
 *.pch
+*.pdb
 
 # Compiled Dynamic libraries
 *.so
@@ -19,6 +23,7 @@
 # Fortran module files
 *.mod
 *.smod
+*.log
 
 # Compiled Static libraries
 *.lai
@@ -30,3 +35,8 @@
 *.exe
 *.out
 *.app
+
+
+trunk_fish/cocos2d/cocos/2d/Debug.win32/*
+trunk_fish/proj.win32/Debug.win32/*
+trunk_fish/cocos2d/plugin/*

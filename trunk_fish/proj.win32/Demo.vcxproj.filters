@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="win32">
+      <UniqueIdentifier>{84a8ebd7-7cf0-47f6-b75e-d441df67da40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{715254bc-d70b-4ec5-bf29-467dd3ace079}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes">
+      <UniqueIdentifier>{3a23d0e6-4bd4-4389-9099-0c9fccb57a67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="wxWrapper">
+      <UniqueIdentifier>{f18d0473-a085-4299-888b-66e24fcd637a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common">
+      <UniqueIdentifier>{bf017c6a-8ad6-4775-9180-a20593904a82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="wxGUI">
+      <UniqueIdentifier>{925a1ccd-1dc6-4813-ba58-0bd3d9faadfb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\HelloWorldScene.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\wxWrapper\LLL_GLView.cpp">
+      <Filter>wxWrapper</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\wxWrapper\LLL_GLWidget.cpp">
+      <Filter>wxWrapper</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\wxGUI\LLL_App.cpp">
+      <Filter>wxGUI</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="..\Classes\HelloWorldScene.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\wxWrapper\LLL_GLWidget.h">
+      <Filter>wxWrapper</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\ComDefine.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\wxWrapper\LLL_GLView.h">
+      <Filter>wxWrapper</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\wxGUI\LLL_App.h">
+      <Filter>wxGUI</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="game.rc">
+      <Filter>resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\game.ico" />
+    <Image Include="res\PCWK_btn_guanbi.bmp" />
+    <Image Include="res\PCWK_btn_guanbi2.bmp" />
+    <Image Include="res\PCWK_btn_guanbi3.bmp" />
+    <Image Include="res\PCWK_btn_quanping.bmp" />
+    <Image Include="res\PCWK_btn_quanping2.bmp" />
+    <Image Include="res\PCWK_btn_quanping3.bmp" />
+    <Image Include="res\PCWK_btn_zxh.bmp" />
+    <Image Include="res\PCWK_btn_zxh2.bmp" />
+    <Image Include="res\PCWK_btn_zxh3.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+    <None Include="ClassDiagram1.cd" />
+  </ItemGroup>
+</Project>
